@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive UI Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive UI Elements</h1>
+    <div class="button-section">
+      <h2>Buttons</h2>
+      <button id="myButton">Click Me</button>
+    </div>
+    <div class="menu-section">
+      <h2>Menu</h2>
+      <button id="menuButton">Toggle Menu</button>
+      <ul id="myMenu" class="hidden">
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+      </ul>
+    </div>
+    <div class="slider-section">
+      <h2>Slider</h2>
+      <input type="range" id="mySlider" min="0" max="100" value="50">
+      <p>Value: <span id="sliderValue">50</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
